@@ -1,0 +1,301 @@
+{
+  "partyBonus": 0,
+  "sets": [
+    {
+      "relicStatMemory": {},
+      "name": "Crit/SpS",
+      "description": "",
+      "items": {
+        "Wrist": {
+          "materia": [
+            {
+              "id": 41771
+            }
+          ],
+          "id": 42808
+        },
+        "RingRight": {
+          "materia": [
+            {
+              "id": 41771
+            }
+          ],
+          "id": 42868
+        },
+        "Legs": {
+          "materia": [
+            {
+              "id": 41772
+            },
+            {
+              "id": 41772
+            }
+          ],
+          "id": 42843
+        },
+        "Head": {
+          "materia": [
+            {
+              "id": 41772
+            },
+            {
+              "id": 41782
+            }
+          ],
+          "id": 42743
+        },
+        "RingLeft": {
+          "materia": [
+            {
+              "id": 41772
+            }
+          ],
+          "id": 42813
+        },
+        "Neck": {
+          "materia": [
+            {
+              "id": 41772
+            }
+          ],
+          "id": 42803
+        },
+        "Body": {
+          "materia": [
+            {
+              "id": 41772
+            },
+            {
+              "id": 41772
+            }
+          ],
+          "id": 42744
+        },
+        "Hand": {
+          "materia": [
+            {
+              "id": 41773
+            },
+            {
+              "id": 41782
+            }
+          ],
+          "id": 42745
+        },
+        "Ears": {
+          "materia": [
+            {
+              "id": 41772
+            }
+          ],
+          "id": 42798
+        },
+        "Weapon": {
+          "materia": [
+            {
+              "id": 41772
+            },
+            {
+              "id": 41772
+            }
+          ],
+          "id": 42785
+        },
+        "Feet": {
+          "materia": [
+            {
+              "id": 41782
+            },
+            {
+              "id": 41771
+            }
+          ],
+          "id": 42844
+        }
+      },
+      "food": 44100
+    },
+    {
+      "relicStatMemory": {},
+      "name": "SpS",
+      "description": "",
+      "items": {
+        "Wrist": {
+          "materia": [
+            {
+              "id": 41782
+            }
+          ],
+          "id": 42808
+        },
+        "RingRight": {
+          "materia": [
+            {
+              "id": 41782
+            }
+          ],
+          "id": 42868
+        },
+        "Legs": {
+          "materia": [
+            {
+              "id": 41771
+            },
+            {
+              "id": 41771
+            }
+          ],
+          "id": 42843
+        },
+        "Head": {
+          "materia": [
+            {
+              "id": 41782
+            },
+            {
+              "id": 41782
+            }
+          ],
+          "id": 42743
+        },
+        "RingLeft": {
+          "materia": [
+            {
+              "id": 41782
+            }
+          ],
+          "id": 42813
+        },
+        "Neck": {
+          "materia": [
+            {
+              "id": 41782
+            }
+          ],
+          "id": 42803
+        },
+        "Body": {
+          "materia": [
+            {
+              "id": 41782
+            },
+            {
+              "id": 41782
+            }
+          ],
+          "id": 42744
+        },
+        "Hand": {
+          "materia": [
+            {
+              "id": 41782
+            },
+            {
+              "id": 41771
+            }
+          ],
+          "id": 42745
+        },
+        "Ears": {
+          "materia": [
+            {
+              "id": 41782
+            }
+          ],
+          "id": 42798
+        },
+        "Weapon": {
+          "materia": [
+            {
+              "id": 41782
+            },
+            {
+              "id": 41782
+            }
+          ],
+          "id": 42785
+        },
+        "Feet": {
+          "materia": [
+            {
+              "id": 41782
+            },
+            {
+              "id": 41782
+            }
+          ],
+          "id": 42844
+        }
+      },
+      "food": 44087
+    }
+  ],
+  "mfMinGcd": 2.05,
+  "level": 100,
+  "mfp": [
+    "dhit",
+    "determination",
+    "crit",
+    "spellspeed",
+    "piety"
+  ],
+  "itemDisplaySettings": {
+    "higherRelics": true,
+    "maxILvl": 999,
+    "minILvlFood": 640,
+    "maxILvlFood": 999,
+    "minILvl": 690
+  },
+  "mfni": false,
+  "name": "AST pre-7.05 BiS",
+  "sims": [
+    {
+      "settings": {
+        "includeInExport": true
+      },
+      "stub": "pr-sim",
+      "name": "Dmg/100p"
+    },
+    {
+      "settings": {
+        "resultSettings": {
+          "stdDevs": 0
+        },
+        "cycleSettings": {
+          "which": "totalTime",
+          "totalTime": 720,
+          "useAutos": false,
+          "cycles": 6
+        },
+        "customSettings": {
+          "aspHelPerMin": 0,
+          "rezPerMin": 0,
+          "aspBenPerMin": 0,
+          "includeInExport": true
+        },
+        "buffConfig": {
+          "jobs": [
+            "AST"
+          ],
+          "buffs": [
+            "Mug",
+            "Battle Litany",
+            "Brotherhood",
+            "Arcane Circle",
+            "Searing Light",
+            "Embolden",
+            "Technical Finish",
+            "Battle Voice",
+            "Radiant Finale",
+            "Chain",
+            "Divination"
+          ]
+        }
+      },
+      "stub": "ast-sheet-sim",
+      "name": "AST Sim"
+    }
+  ],
+  "description": "",
+  "job": "AST"
+}
